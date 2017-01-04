@@ -1,0 +1,106 @@
+<PISI>
+    <Source>
+        <Name>google-play-music-desktop-player</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>multimedia.audio</PartOf>
+        <Summary xml:lang="en">A beautiful cross platform Desktop Player for Google Play Music</Summary>
+        <Description xml:lang="en">A beautiful cross platform Desktop Player for Google Play Music
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>google-play-music-desktop-player</Name>
+        <Summary xml:lang="en">A beautiful cross platform Desktop Player for Google Play Music</Summary>
+        <Description xml:lang="en">A beautiful cross platform Desktop Player for Google Play Music
+</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/gpmdp.desktop</Path>
+            <Path fileType="data">/usr/share/gpmdp/Google Play Music Desktop Player</Path>
+            <Path fileType="data">/usr/share/gpmdp/LICENSE</Path>
+            <Path fileType="data">/usr/share/gpmdp/LICENSES.chromium.html</Path>
+            <Path fileType="data">/usr/share/gpmdp/blink_image_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/content_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/content_shell.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/gpmdp/libffmpeg.so</Path>
+            <Path fileType="data">/usr/share/gpmdp/libnode.so</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/am.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ar.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/bg.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/bn.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ca.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/cs.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/da.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/de.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/el.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/en-GB.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/en-US.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/es-419.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/es.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/et.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/fa.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/fake-bidi.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/fi.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/fil.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/fr.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/gu.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/he.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/hi.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/hr.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/hu.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/id.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/it.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ja.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/kn.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ko.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/lt.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/lv.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ml.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/mr.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ms.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/nb.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/nl.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/pl.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/pt-BR.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/pt-PT.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ro.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ru.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/sk.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/sl.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/sr.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/sv.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/sw.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/ta.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/te.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/th.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/tr.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/uk.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/vi.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/zh-CN.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/locales/zh-TW.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/natives_blob.bin</Path>
+            <Path fileType="data">/usr/share/gpmdp/resources/app.asar</Path>
+            <Path fileType="data">/usr/share/gpmdp/resources/electron.asar</Path>
+            <Path fileType="data">/usr/share/gpmdp/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/gpmdp/ui_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/gpmdp/version</Path>
+            <Path fileType="data">/usr/share/gpmdp/views_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/pixmaps/gpmdp.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-01-04</Date>
+            <Version>4.0.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

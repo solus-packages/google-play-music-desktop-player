@@ -1,0 +1,30 @@
+name       : google-play-music-desktop-player
+version    : 4.0.5
+release    : 1
+source     :
+    - https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/archive/v4.0.5.tar.gz : 4de0f796248296a7977cf1af39952244ebc5298bb650871eb60403000b0864b9
+license    : MIT
+component  : multimedia.audio
+networking : yes
+summary    : A beautiful cross platform Desktop Player for Google Play Music
+description: |
+    A beautiful cross platform Desktop Player for Google Play Music
+builddeps  :
+    - pkgconfig(avahi-compat-libdns_sd)
+    - pkgconfig(x11)
+    - git
+    - nodejs
+rundeps    :
+    - nodejs
+setup      : |
+    npm install
+build      : |
+    npm run build
+install    : |
+    npm run package:linux:64
+    install -dm00644 $installdir/usr/bin
+    install -Dm00644 $pkgfiles/gpmdp.desktop $installdir/usr/share/applications/gpmdp.desktop
+    install -dm00644 $installdir/usr/share/gpmdp
+    install -Dm00644 build/assets/img/main.png $installdir/usr/share/pixmaps/gpmdp.png
+    cp -R dist/"Google Play Music Desktop Player-linux-x64"/* $installdir/usr/share/gpmdp/
+    ln -s /usr/share/gpmdp/"Google Play Music Desktop Player" $installdir/usr/bin/gpmdp
