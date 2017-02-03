@@ -1,8 +1,8 @@
 name       : google-play-music-desktop-player
-version    : 4.0.5
-release    : 1
+version    : 4.1.1
+release    : 2
 source     :
-    - https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/archive/v4.0.5.tar.gz : 4de0f796248296a7977cf1af39952244ebc5298bb650871eb60403000b0864b9
+    - https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/archive/v4.1.1.tar.gz : dab278d1804de694e9c13614aab1d0d1239a81fb9ac920e0c4dbdc76007bb254
 license    : MIT
 component  : multimedia.audio
 networking : yes
