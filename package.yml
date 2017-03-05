@@ -1,8 +1,8 @@
 name       : google-play-music-desktop-player
-version    : 4.1.1
-release    : 2
+version    : 4.2.0
+release    : 3
 source     :
-    - https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/archive/v4.1.1.tar.gz : dab278d1804de694e9c13614aab1d0d1239a81fb9ac920e0c4dbdc76007bb254
+    - https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/archive/v4.2.0.tar.gz : b4beeaab52465b0960654650cf7bb23a3c5c189f58ac298099399f2658714915
 license    : MIT
 component  : multimedia.audio
 networking : yes
@@ -10,8 +10,11 @@ summary    : A beautiful cross platform Desktop Player for Google Play Music
 description: |
     A beautiful cross platform Desktop Player for Google Play Music
 builddeps  :
+    - pkgconfig(alsa)
     - pkgconfig(avahi-compat-libdns_sd)
-    - pkgconfig(x11)
+    - pkgconfig(gconf-2.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(xscrnsaver)
     - git
     - nodejs
 rundeps    :
