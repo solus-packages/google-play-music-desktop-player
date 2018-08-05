@@ -2,8 +2,8 @@
     <Source>
         <Name>google-play-music-desktop-player</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>multimedia.audio</PartOf>
@@ -96,12 +96,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2018-08-04</Date>
+        <Update release="8">
+            <Date>2018-08-05</Date>
             <Version>4.6.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
